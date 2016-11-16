@@ -1,6 +1,6 @@
 # Hop No Save Revision
 
-
+This ExpressionEngine add-on will remove the "Save Revision" button that's displayed at the bottom of the Publish page.
 
 
 ## Want more ?
