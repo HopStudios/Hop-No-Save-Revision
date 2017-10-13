@@ -10,6 +10,16 @@ class Hop_no_save_revision_acc
 	var $description	= 'Remove the "Save revision" button in the publish screen';
 	var $sections		= array();
 
+	public function __construct()
+	{
+		// This allows us to use ee() in older versions of ExpressionEngine
+		if(!function_exists('ee')) {
+			function ee() {
+				return get_instance();
+			}
+		}
+	}
+
 	/**
 	* Set Sections
 	*
