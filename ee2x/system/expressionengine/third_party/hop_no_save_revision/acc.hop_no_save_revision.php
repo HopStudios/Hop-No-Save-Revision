@@ -37,7 +37,7 @@ class Hop_no_save_revision_acc
 		ee()->cp->add_to_foot('
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$("#revision_button").hide();
+				$("#publishForm #revision_button").hide();
 			});
 		</script>
 		');
